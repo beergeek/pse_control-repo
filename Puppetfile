@@ -9,6 +9,9 @@ mod 'puppetlabs/mysql', '6.1.0'
 mod 'slamble/websites',
   :git => 'git@gitlab:puppet/websites'
 
+mod 'slamble/databases',
+  :get => 'git@gitlab:puppet/databases'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
