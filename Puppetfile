@@ -7,10 +7,12 @@ mod 'puppetlabs/concat', '5.0.0'
 mod 'puppetlabs/apache', '3.3.0'
 mod 'puppetlabs/mysql', '6.1.0'
 mod 'slamble/websites',
-  :git => 'git@gitlab:puppet/websites'
+  :git    => 'git@gitlab:puppet/websites',
+  :branch => 'dev'
 
 mod 'slamble/databases',
-  :git => 'git@gitlab:puppet/databases'
+  :git    => 'git@gitlab:puppet/databases',
+  :branch => 'dev'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
