@@ -1,2 +1,9 @@
 ---
 message: "This node is using common data"
+
+websites::vhosts:
+  - hiera_vhost1
+  - hiera_vhost2
+  - hiera_vhost3
+  - hiera_vhost4
+  - hiera_vhost5
